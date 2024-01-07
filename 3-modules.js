@@ -6,7 +6,8 @@
 // Modules - Encapsulated Code (only share minimum)
 const sayHi = require("./4-sayHiModule");
 const name = require("./4-namesModule");
-const data = require("./4-exportAsYouGo");
+const data = require("./4-exportAsYouGoModule");
+require("./4-mindGrenadeModule"); //this runs automatially
 console.log(data.namesList, data.personObject);
 console.log("Person number 2 " + data.namesList[2]);
 sayHi(name.boss);
