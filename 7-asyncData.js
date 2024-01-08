@@ -4,7 +4,7 @@ const { readFile, writeFile } = require("fs");
 //if we provide a callback function, it will work
 //(err, result) =>  this is the callback
 
-//ASYNc NOT WORKING AS THE DATA ISN'T BEING LOADED IN TIME. NEED AWAIT
+//ASYNc NOT WORKING AS THE DATA ISN'T BEING LOADED IN TIME. NEED AWAIT OR PROMISES
 
 // var first = "no data";
 // var second = "no data";
@@ -49,3 +49,5 @@ const WriteToNewFile = (first, second) => {
     }
   );
 };
+
+//video up to 1:33
