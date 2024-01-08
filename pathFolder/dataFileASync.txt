@@ -1,0 +1,13 @@
+Here is the result : no data no data
+Here is the result : no data no data
+Here is the result : no data no data
+Here is the result : Data in the first text file () => {
+  readFile("./pathFolder/second.txt", "utf8", (err, result) => {
+    if (err) {
+      console.log("error second = " + err);
+      return;
+    }
+    return result;
+  });
+}
+Here is the result : Data in the first text file Data in the second text file
