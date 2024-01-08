@@ -28,3 +28,6 @@ console.log(filepathToData);
 
 const base = path.basename(filepathToData); //gets the last in the path.
 console.log(base);
+
+const absolutePath = path.resolve(__dirname, "pathFolder", "files", "data.txt");
+console.log(absolutePath);
