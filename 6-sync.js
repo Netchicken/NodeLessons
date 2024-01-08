@@ -9,7 +9,9 @@ const second = readFileSync("./pathFolder/second.txt", "utf8");
 console.log(first, second);
 
 // Sync
+//  flag: "a" appends data instead of overwriting it
 writeFileSync(
   "./pathFolder/dataFileSync.txt",
-  "Here is the result : " + first + second
+  "Here is the result : " + first + " " + second + "\n",
+  { flag: "a" }
 );

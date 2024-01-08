@@ -1,1 +1,3 @@
 Here is the result : Data in the first text fileData in the second text file
+Here is the result : Data in the first text fileData in the second text file
+Here is the result : Data in the first text file Data in the second text file
