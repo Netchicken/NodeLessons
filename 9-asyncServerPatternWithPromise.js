@@ -19,5 +19,3 @@ const getText = (path) => {
 getText("./pathFolder/first.txt")
   .then((result) => console.log(result)) //we are retuning the promise outcome
   .catch((err) => console.log(err));
-
-//ended at 3:00 in the video
